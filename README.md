@@ -1,2 +1,2 @@
 # Cocoa
-A repository for the odin-project "recipes" project
+A repository for the odin-project "recipes" project. 
