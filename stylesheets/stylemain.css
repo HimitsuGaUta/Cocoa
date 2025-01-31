@@ -1,0 +1,12 @@
+li {
+  display: inline-block;
+  list-style-type: none;
+}
+li a{
+    text-decoration: none;
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-inline-start: 0px;
+}

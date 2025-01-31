@@ -1,0 +1,24 @@
+body {
+  background-color: #11161d;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.container {
+  display: flexbox;
+  align-content: center;
+}
+.container > h1 {
+  color: white;
+  text-align: center;
+  transition: 0.3s ease;
+}
+.container > h1:hover{
+    color: rgb(254, 200, 131);
+}
+.smalltext {
+  color: white;
+  transition: 0.3s ease;
+}
+.smalltext:hover{
+    color: rgb(254, 200, 131);
+}
