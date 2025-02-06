@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: #11161d;
   background-size: contain;
@@ -5,20 +8,20 @@ body {
 }
 .container {
   display: flexbox;
-  align-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-.container > h1 {
-  color: white;
+.title {
   text-align: center;
-  transition: 0.3s ease;
+  transition: 0.5s ease;
+  margin-block-start: 0.0em;
+  margin-block-end: 0.0em;
 }
-.container > h1:hover{
-    color: rgb(254, 200, 131);
-}
-.smalltext {
+.title a{
+  text-decoration: none;
   color: white;
-  transition: 0.3s ease;
 }
-.smalltext:hover{
+.title a:hover{
     color: rgb(254, 200, 131);
 }

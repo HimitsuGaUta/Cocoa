@@ -1,12 +1,30 @@
+.navlist {
+  display: flex;
+  justify-content: space-evenly;
+  
+  padding-inline-start: 0px;
+  box-shadow: -2px 0 0 0 white, 2px 0 0 0 white, 0 -2px 0 0 white,
+    0 2px 0 0 white;
+  /* stolen from stack overflow */
+}
 li {
   display: inline-block;
   list-style-type: none;
 }
-li a{
-    text-decoration: none;
+li a {
+  text-decoration: none;
 }
-ul {
-    display: flex;
-    justify-content: space-evenly;
-    padding-inline-start: 0px;
+.navitem {
+  color: white;
+  transition: 0.3s ease;
+}
+.navitem:hover {
+  color: rgb(254, 200, 131);
+}
+.imgcontainer{
+  display:flex;
+  justify-content: center;
+}
+#headimg {
+  width: 50vw;
 }
